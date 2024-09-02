@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+   <!--
+    1)Added text / Alert
+    <button onclick = doSomething()>Click me</button>
+    <script>
+     function doSomething(){
+        let x = "Game Over";
+        alert(x);
+        console.log(x);   
+    }
+    </script>
+   -->
+   <!--
+   2)Changing Text and Background Color
+    <p id="message">Original Text</p>
+    <button onclick="changeText()">Change</button>
+    <script>
+        function changeText(){
+            document.getElementById('message').textContent = 'Changed!';
+            document.body.style.backgroundColor = 'lightblue';
+        }
+    </script>
+   -->
+    <!--
+   3)Adding a new Element
+    <button onclick = "addParagraph()">Add Para</button>
+    <script>
+        function addParagraph(){
+            let p = document.createElement('p');
+            p.textContent = 'A new paragraph has been added!';
+            document.body.appendChild(p)
+        }
+    </script>
+    -->
+    <!--
+    4) Adding 2 numbers
+    <input id="num1" type="number">
+    <input id="num2" type="number">
+
+    <button onclick="calulation()">Calculate</button>
+    <script>
+        function calulation(){
+        let num1Element = document.getElementById('num1');
+        let num2Element = document.getElementById('num2');
+        
+        let num1 = parseFloat(num1Element.value);
+        let num2 = parseFloat(num2Element.value);
+        let sum = num1 + num2;
+        alert('The sum is: ' + sum);
+        }
+    </script>
+    -->
+    
+</body>
+</html>

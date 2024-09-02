@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.cdnfonts.com/css/horror-type" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/horror-type');
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+    <script type="text/javascript" src="forms.js"></script>
+</head>
+<body>
+    <h1>Forms Quiz</h1>
+    <form> 
+        <div>
+        
+            <p>What's the capital of India?</p>
+            <li>
+            <input type="checkbox" name="q1" id="question1">
+            <label for="q1">France</label>
+            </li>
+            <li>
+            <input type="checkbox" name="q1" id="question1">
+            <label for="q1">London</label>
+            </li>
+            <li>
+            <input type="checkbox" name="q1" id="question1">
+            <label for="q1">Berlin</label>
+            </li>
+        </div>
+        <div>
+            <p>What's the capital of New Zealand?</p>
+            <li>
+            <input type="radio" name="q2" id="question1">
+            <label for="q1">Dunedin</label>
+            </li>
+            <li>
+            <input type="radio" name="q2" id="question1">
+            <label for="q1">Auckland</label>
+            </li>
+            <li>
+            <input type="radio" name="q2" id="question1">
+            <label for="q1">Berlin</label>
+            </li>
+        </div>
+        <div>
+            <label for="author">Who is the author of the book 'Hamlet'</label>
+            <br>
+            <input type= "text" id="author" name="author" required>
+        </div>
+        <div>
+            <P>Drag and drop the capital city to the country they belong to:</P>
+            <div id="droppable">China</div>
+            <div id="droppable2">India</div>
+            <p>Choices:
+
+            </p>
+            <div id="draggable" draggable="true">Beijing</div>
+            <div id="draggable2" draggable="true">Delhi</div>
+        </div>
+        <button onclick="checkAnswer">Submit</button>
+    </form>
+</body>
+</html>
